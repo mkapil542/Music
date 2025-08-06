@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Music Recommender",
+            "type": "shell",
+            "command": "python src/main.py",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Tests",
+            "type": "shell",
+            "command": "python -m unittest discover tests",
+            "group": "test",
+            "problemMatcher": []
+        }
+    ]
+}
